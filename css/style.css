@@ -1,0 +1,469 @@
+/* Style for navigation bar */
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+
+  font-family: "Helvetica Neue", "Open Sans", helvetica, arial, sans-serif;
+}
+.nav {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  justify-content: space-between;
+  padding: 0 200px 0 200px;
+  background-color:  white;
+  z-index: 3;
+}
+
+.nav img {
+ 
+  max-height: 100px;
+  
+}
+.nav .tel {
+  color: #ee531b;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.section .top {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  
+}
+.section .top.container {
+
+  margin-top: 220px;
+}
+.left {
+  height: 150px;
+  background-color: #e7e6e4;
+  border-radius: 15px;
+  display: flex;
+  margin-top: 120px;
+  margin-left: 200px;
+}
+.left p.pm {
+  color: #2b2ee8;
+  font-size: 25px;
+  font-weight: bolder;
+  padding-top: 40px;
+}
+
+.left p.ppn {
+  border-left: 4px solid rgb(15, 82, 177);
+  padding-top: 20px;
+  margin-top: 20px;
+  color: #2b2ee8;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.right {
+  height: 150px;
+  background-color: #e7e6e4;
+  border-radius: 15px;
+  display: flex;
+  margin-top: 120px;
+  margin-right: 200px;
+}
+
+.right p.pm {
+  color: #2b2ee8;
+  font-size: 25px;
+  font-weight: bolder;
+  padding-top: 40px;
+}
+
+.right p.ppn {
+  border-left: 4px solid rgb(15, 82, 177);
+  padding-top: 20px;
+  margin-top: 20px;
+  color: #2b2ee8;
+  font-size: 25px;
+  font-weight: bolder;
+}
+button {
+  width: 250px;
+  padding: 10px;
+  margin-left: 250px;
+  margin-top: 20px;
+  border-radius: 25px;
+  background-color: #f86811;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+/*------------start coundown----------------------*/
+/* Set background and text colors */
+.coundawn {
+  background-color: white;
+  color: #333;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Set font size and alignment for titles */
+.title {
+  font-size: 2rem;
+  text-align: center;
+  
+}
+
+/* Set font size and alignment for countdown values */
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+input[type="text"] {
+  width: 130px;
+  height: 130px;
+  font-size: 3rem;
+  text-align: center;
+  background-color: transparent;
+  color:gold;
+  background-color: #381bee;
+  border-left: 3px solid white;
+  border-bottom: 5px solid white;
+  border-radius: 10px;
+  
+}
+
+label {
+  font-size: 1.2rem;
+  text-align: center;
+  display: block;
+  margin-top: 0.5rem;
+  background-color: #2614ea;
+  border-left: 3px solid white;
+  margin-bottom: 20px;
+  color:gold;
+  border-radius: 10px;
+}
+
+/*------------end coundown----------------------*/
+
+.midel .add {
+  width: 100%;
+  text-align: center;
+  color: white;
+  height: 50vh;
+  background-color: blue;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 70px;
+  justify-content: center;
+}
+#carouselExampleInterval {
+  width: 700px;
+  height: 300px;
+  margin-left: 200px;
+  margin-top: 70px;
+  z-index: -1;
+  margin-bottom: 130p;
+}
+#my-video {
+  width: 100%;
+  
+  min-height: 400px;
+}
+
+/*-------------start vedio-------------------------------*/
+/*إلغاء تأثير الانتقال من البطاقة التي تحتوي على مقطع الفيديو*/
+.card:hover {
+  transform: translateY(0%);
+}
+/* لكي توازي الأيقونات الكتابة التي فوقها */
+.watch-page .watch-icons {
+  position: absolute;
+  bottom: 5px;
+  margin-top: 50px;
+}
+/*عند مرور الفأرة على الأيقونات*/
+.watch-icons i:hover {
+  cursor: pointer;
+}
+/*إخفاء النص الذي سنظهره ونخفيه عند الضغط على الزر*/
+.watch-page #more {
+  display: none;
+}
+/*إخفاء الظل الذي يظهر حول حقل الإدخال عند الضغط عليه*/
+.form-control:focus {
+  box-shadow: none;
+}
+/*إخفاء جميع الردود*/
+.card-inner {
+  display: none;
+}
+/*تغيير لون أزرار التعليق لتتناسب مع ألوان موقعنا*/
+.public-comment .card .btn {
+  background-color: #921192;
+  border-color: #921192;
+  color: #fff;
+}
+.public-comment .card .btn:hover {
+  background-color: #b915b9;
+}
+/*تغيير موضع حاوية الوقت*/
+time {
+  left: 24px !important;
+}
+/*تغيير موضع أيقونة التشغيل*/
+.watch-page .fa-play {
+  right: 49% !important;
+}
+
+div.dropdown-menu.show {
+  inset: 0px 140px auto auto !important;
+}
+/*///////////////////////////////////////////////////*/
+/*تصغير حجم العنصر الذي يحتوي على مدة مقطع الفيديو وحجم أيقونة التشغيل*/
+@media (min-width: 564px) {
+  time {
+    font-size: 13px;
+  }
+  .fa-play {
+    font-size: 20px !important;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.nav img {
+    max-width: 150px;
+    height: auto;
+}
+
+.nav .tel {
+    text-align: center;
+}
+
+.top .left,
+.top .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.left p.pm {
+  color: #2b2ee8;
+  font-size: 15px;
+  font-weight: bolder;
+  padding-top: 5px;
+}
+
+.left p.ppn {
+  border-left: 4px solid rgb(15, 82, 177);
+  padding-top: 5px;
+  margin-top: 5px;
+  color: #2b2ee8;
+  font-size: 15px;
+  
+}
+.right p.pm {
+  color: #2b2ee8;
+  font-size: 15px;
+  font-weight: bolder;
+  padding-top: 5px;
+}
+
+.right p.ppn {
+  border-left: 4px solid rgb(15, 82, 177);
+  padding-top: 5px;
+  margin-top: 5px;
+  color: #2b2ee8;
+  font-size: 15px;
+  
+}
+.top .left .col-md-3,
+.top .right .col-md-3 {
+    margin-bottom: 10px;
+}
+
+p.pm {
+  font-size: 10px;
+}
+p.ppn{
+  font-size: 10px;
+}
+.para {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.coundawn {
+    text-align: center;
+}
+
+.coundawn .col div {
+    margin-bottom: 10px;
+}
+
+.midel .add h3,
+.midel .add h2 {
+    font-size: 14px;
+    text-align: center;
+}
+
+.pico .photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.featch .carousel-slide {
+    margin-top: 20px;
+}
+
+.featch .carousel-slide img {
+    max-height: 200px;
+    width: auto;
+}
+}
+
+@media (max-width: 1062px) {
+  /*وضع هامش في أسفل الزر لكي يبتعد عن الأيقونات الموجودة أسفل منه*/
+  #myBtn {
+    margin-bottom: 60px !important;
+  }
+}
+/* Styles for mobile */
+
+@media (min-width: 364px) {
+  
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .nav img {
+        max-width: 150px;
+        height: auto;
+    }
+
+    .nav .tel {
+        text-align: center;
+    }
+    .left p.pm {
+      color: #2b2ee8;
+      font-size: 5px;
+      font-weight: bolder;
+      padding-top: 5px;
+    }
+    
+    .left p.ppn {
+      border-left: 4px solid rgb(15, 82, 177);
+      padding-top: 5px;
+      margin-top: 5px;
+      color: #2b2ee8;
+      font-size: 5px;
+      
+    }
+    .right p.pm {
+      color: #2b2ee8;
+      font-size: 10px;
+      font-weight: bolder;
+      padding-top: 5px;
+    }
+    
+    .right p.ppn {
+      border-left: 4px solid rgb(15, 82, 177);
+      padding-top: 5px;
+      margin-top: 5px;
+      color: #2b2ee8;
+      font-size: 5px;
+      
+    }
+    
+    .top .left,
+    .top .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .top .left .col-md-3,
+    .top .right .col-md-3 {
+        margin-bottom: 10px;
+    }
+
+    .para {
+        padding: 20px;
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .coundawn {
+        text-align: center;
+    }
+
+    .coundawn .col div {
+        margin-bottom: 10px;
+    }
+
+    .midel .add h3,
+    .midel .add h2 {
+        font-size: 14px;
+        text-align: center;
+
+    }
+
+    .pico .photo img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .featch .carousel-slide {
+        margin-top: 20px;
+    }
+
+    .featch .carousel-slide img {
+        max-height: 200px;
+        width: auto;
+    }
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.carousel-slide img {
+  max-width: 600px;
+  max-height: 300px;
+}
+
+/*-------------foooooter*/
+.footer {
+  background-color: #2b2ee8;
+  text-align: center;
+  justify-content: center;
+  height: 150px;
+}
+.foo.input[type="text"] {
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+}
+.footer button {
+  margin-right: 500px;
+  margin: 400px;
+  margin-top: 300px;
+}
