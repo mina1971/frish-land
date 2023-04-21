@@ -238,7 +238,7 @@ div.dropdown-menu.show {
 }
 /*///////////////////////////////////////////////////*/
 /*تصغير حجم العنصر الذي يحتوي على مدة مقطع الفيديو وحجم أيقونة التشغيل*/
-@media (min-width: 564px) {
+@media (max-width: 564px) {
   time {
     font-size: 13px;
   }
@@ -353,7 +353,7 @@ p.ppn{
 }
 /* Styles for mobile */
 
-@media (min-width: 364px) {
+@media (max-width: 364px) {
   
     .nav {
         display: flex;
